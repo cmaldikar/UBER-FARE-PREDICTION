@@ -1,8 +1,8 @@
-# Uber Fare Prediction Project
+# Data Analysis on Uber 
 
 ## Overview
 
-This project involves predicting the fare amount for Uber transactions using machine learning techniques. The dataset contains information such as pickup and dropoff locations, passenger count, and timestamps. The predictive model is built using the XGBoost algorithm.
+This project involves predicting the fare amount for Uber transactions using machine learning techniques. The dataset contains information such as pickup and dropoff locations, passenger count, and timestamps.
 
 ## Project Structure
 
@@ -18,11 +18,6 @@ This project involves predicting the fare amount for Uber transactions using mac
 
 - **Feature Selection/Extraction:**
   - Encodes categorical columns, specifically the pickup date.
-
-- **Predictive Modeling (XGBoost):**
-  - Splits data into training and testing sets.
-  - Builds an XGBoost regressor for fare prediction.
-  - Evaluates model performance using Root Mean Squared Error (RMSE).
 
 - **Feature Importance:**
   - Plots the top 10 features influencing fare predictions.
